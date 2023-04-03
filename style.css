@@ -1,0 +1,63 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    background: rgb(34, 193, 195);
+    background: radial-gradient(circle, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+.h1 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#lista {
+    display: inline-block;
+    align-self: center;
+}
+
+.input1,
+.input2,
+.input3 {
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 6px;
+    border-width: 1px;
+}
+
+.button2 {
+    margin-left: 15px;
+}
+
+.button1,
+.button2 {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    background-color: rgb(85, 175, 249);
+    color: white;
+    padding-bottom: 2px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-color: rgb(85, 175, 249);
+    transition: 0.15s;
+}
+
+.button1:hover,
+.button2:hover {
+    background-color: white;
+    color: rgb(85, 175, 249);
+    border-color: rgb(85, 176, 251);
+}
+
+.th {
+    padding-left: 15px;
+}
